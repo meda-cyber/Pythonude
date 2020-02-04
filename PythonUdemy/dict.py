@@ -114,3 +114,27 @@ common_color = leos_color.intersection(medex_color)
 print(common_color)
 
 print(mixed_color)
+
+# Creating calss
+class Vehicle:
+    name = ""
+    kind  = "car"
+    color = ""
+    value = 100.00
+    def description(self):
+        desc_str = "%s is a %s worth $%.2f." % (self.name,self.color,self.kind,self.value)
+        return desc_str
+    
+car1 = Vehicle()
+car1.name = "Fer"
+car1.color = "red"
+car1.kind = "convertible"
+car1.value = 60,000.00
+
+car2 = Vehicle()
+car2.name = "Jump"
+car2.color = "blue"
+car2.kind = "van"
+car2.value = 10,000.00
+
+
