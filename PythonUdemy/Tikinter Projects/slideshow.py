@@ -8,7 +8,7 @@ class App(tk.Tk):
 
         tk.Tk.__init__(self)
 
-        self.geometry("+{}+{}"format(x, y))
+        self.geometry("+{}+{}".format(x, y))
         self.delay = delay
 
         self.pictures = cycle((tk.PhotoImage(file=image), image)
